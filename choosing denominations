@@ -1,0 +1,18 @@
+#choosing the minimum number of coins from 1,2 and 3 dollar coins for a given amount.
+#the total cost not exceeding 5000
+#python code written by Abinaya Elanchezhian.
+n=int(input("enter the amount required:"))
+while(n<=5000):
+   r=n%3
+   q=n/3
+   if r==0:
+     print(q)
+     break
+     r1=r%2
+     q1=r/2
+  elif r1==0:
+     s=q+q1
+     print(s)
+  else:
+     t=q+q1+r
+     print(t)
